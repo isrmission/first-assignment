@@ -2,13 +2,13 @@ body{
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
 }
-.header{
+.header-section{
     background-color: gray;
     width: auto;
     display: flex;
     color: white;
 }
-.header h3{
+.header-section h3{
     padding-left: 50px;
 }
 #header-button{
@@ -39,6 +39,7 @@ h1{
 }
 .half-width{
     width: 50%;
+    padding: 2%;
 }
 .half-width img{
     width: 70%;
@@ -51,9 +52,7 @@ h1{
     padding-left: 50px;
     padding-right: 100px;
 }
-.padding-2{
-    padding-right: 100px;
-}
+
 #size
 {
     width: 45%;
@@ -62,6 +61,7 @@ h1{
 #background-img{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    background-size:cover;
 }
 h2{
     font-size: 40px;
@@ -76,7 +76,7 @@ h3{
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 10px;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-right: 20px;
 }
 #my-recipe{
@@ -85,7 +85,7 @@ h3{
     margin-bottom: 10px;
 }
 .img-size{
-    width: 50%;
+    width: 80%;
     margin-left: 5%;
     margin-right: 5%;
     padding: 15px;
@@ -94,7 +94,7 @@ h3{
 }
 .img-size img{
     border-radius: 15px;
-    width: 300px;
+    width:100%;
    
 }
 .review-section{
