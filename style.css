@@ -1,6 +1,12 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
 .header{
     background-color: gray;
+    width: auto;
     display: flex;
+    color: white;
 }
 .header h3{
     padding-left: 50px;
@@ -8,11 +14,6 @@
 #header-button{
     padding-top: 65px;
    padding-left: 500px;
-}
-
-body{
-    font-family: 'Noto Sans', sans-serif;
-    margin: 0;
 }
 #bold{
     font-size: 40px;
@@ -34,7 +35,7 @@ h1{
 }
 .container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 .half-width{
     width: 50%;
@@ -53,7 +54,8 @@ h1{
 .padding-2{
     padding-right: 100px;
 }
-#size{
+#size
+{
     width: 45%;
     margin-left: 200px;
 }
@@ -95,9 +97,20 @@ h3{
     width: 300px;
    
 }
+.review-section{
+    margin: 250px;
+    text-align: center;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 30px gray;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+}
 footer {
     text-align: center;
     background-color: gray;
+    color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: auto;
 }
